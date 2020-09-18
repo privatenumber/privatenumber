@@ -1,0 +1,160 @@
+[
+    {
+        "name": "cli-simple-table",
+        "repoUrl": "https://github.com/privatenumber/cli-simple-table",
+        "description": "When you want to a quick and light way to display tabular data in a CLI"
+    },
+    {
+        "name": "code-inject-loader",
+        "repoUrl": "https://github.com/privatenumber/code-inject-loader",
+        "description": "When you want to prepend, append, or transform source files at build-time in your Webpack-bundled app"
+    },
+    {
+        "name": "deps",
+        "repoUrl": "https://github.com/privatenumber/deps",
+        "description": "When you want to precisely identify which package dependencies are being executed"
+    },
+    {
+        "name": "esbuild-loader",
+        "repoUrl": "https://github.com/egoist/esbuild-loader",
+        "description": "When you have a Webpack build and want to speed up JS/TS compilation or minification with [esbuild](https://github.com/evanw/esbuild)"
+    },
+    {
+        "name": "github-cdn",
+        "repoUrl": "https://github.com/privatenumber/github-cdn",
+        "description": "When you want to host a CDN from your Github Enterprise"
+    },
+    {
+        "name": "htmlvue-loader",
+        "repoUrl": "https://github.com/privatenumber/htmlvue-loader",
+        "description": "When you have a Webpack build and want to import HTML or XML files (eg. SVGs) as a Vue component"
+    },
+    {
+        "name": "i-peers",
+        "repoUrl": "https://github.com/privatenumber/i-peers",
+        "description": "When you want to install your npm package's peerDependencies"
+    },
+    {
+        "name": "markdown-it-add-attrs",
+        "repoUrl": "https://github.com/privatenumber/markdown-it-add-attrs",
+        "description": "When you're using [markdown-it](https://github.com/markdown-it/markdown-it) and want to add a class or attribute to every MD element (eg. to scope CSS just to MD)"
+    },
+    {
+        "name": "md-vue-loader",
+        "repoUrl": "https://github.com/privatenumber/md-vue-loader",
+        "description": "When you want to import Markdown files, with inline Vue demos, as a Vue component in a Webpack-bundled app"
+    },
+    {
+        "name": "mempack",
+        "repoUrl": "https://github.com/privatenumber/mempack",
+        "description": "When you want to run a completely in-memory Webpack build"
+    },
+    {
+        "name": "minification-benchmarks",
+        "repoUrl": "https://github.com/privatenumber/minification-benchmarks",
+        "description": "When you want to compare JS minifiers"
+    },
+    {
+        "name": "motion-orientation-api",
+        "repoUrl": "https://github.com/privatenumber/motion-orientation-api",
+        "websiteUrl": "https://motion-orientation-api.now.sh",
+        "description": "When you want to visualize and understand the data you get from the [Motion & Orientation API](https://developers.google.com/web/fundamentals/native-hardware/device-orientation)"
+    },
+    {
+        "name": "postcss-import-alias",
+        "repoUrl": "https://github.com/privatenumber/postcss-import-alias",
+        "description": "When you're using PostCSS and want to use aliases in your `@import`s"
+    },
+    {
+        "name": "postcss-preset-env-playground",
+        "repoUrl": "https://github.com/privatenumber/postcss-preset-env-playground",
+        "websiteUrl": "https://postcss-preset-env-playground.now.sh/",
+        "description": "When you want to play with the different configurations of [PostCSS preset-env](https://github.com/csstools/postcss-preset-env/) to understand how to use it"
+    },
+    {
+        "name": "reactive-json-file",
+        "repoUrl": "https://github.com/privatenumber/reactive-json-file",
+        "description": "When you want to save JS data automatically as you change them"
+    },
+    {
+        "name": "repkg",
+        "repoUrl": "https://github.com/privatenumber/repkg",
+        "websiteUrl": "https://repkg.now.sh",
+        "description": "When you want to convert or package a npm package (or a specific file) to AMD/UMD on-demand"
+    },
+    {
+        "name": "rollup-plugin-htmlvue",
+        "repoUrl": "https://github.com/privatenumber/rollup-plugin-htmlvue",
+        "description": "When you want to import HTML or XML (eg. SVGs) as a Vue component in your Rollup-bundled app"
+    },
+    {
+        "name": "svg-trace-loader",
+        "repoUrl": "https://github.com/privatenumber/svg-trace-loader",
+        "description": "When you have a Webpack build and want to flatten the SVGs you import into a single `<path>`"
+    },
+    {
+        "name": "vue-demo-collapse",
+        "repoUrl": "https://github.com/privatenumber/vue-demo-collapse",
+        "description": "When you want to present your Vue demo nicely with a collapsible code section"
+    },
+    {
+        "name": "vue-dom-hints",
+        "repoUrl": "https://github.com/privatenumber/vue-dom-hints",
+        "description": "When you want a minimal alternative to [Vue.js devtools](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd?hl=en)"
+    },
+    {
+        "name": "vue-feather-icon-set",
+        "repoUrl": "https://github.com/privatenumber/vue-feather-icon-set",
+        "description": "When you want to an optimized [Feather](https://feathericons.com/) icon set for Vue"
+    },
+    {
+        "name": "vue-frag",
+        "repoUrl": "https://github.com/privatenumber/vue-frag",
+        "description": "When you want to return multiple root elements in a stateful Vue component"
+    },
+    {
+        "name": "vue-import-loader",
+        "repoUrl": "https://github.com/privatenumber/vue-import-loader",
+        "description": "When you want to automatically import & register components used in your template (like [@nuxt/components](https://github.com/nuxt/components))"
+    },
+    {
+        "name": "vue-proxi",
+        "repoUrl": "https://github.com/privatenumber/vue-proxi",
+        "description": "When you want to proxy Vue component props and event-handlers to a child component"
+    },
+    {
+        "name": "vue-pseudo-window",
+        "repoUrl": "https://github.com/privatenumber/vue-pseudo-window",
+        "description": "When you want to add event-handlers or classes to the document or window from the Vue component template"
+    },
+    {
+        "name": "vue-split-view",
+        "repoUrl": "https://github.com/privatenumber/vue-split-view",
+        "description": "When you want a vertically or horizontally re-sizeable split-view in your Vue app"
+    },
+    {
+        "name": "vue-subslot",
+        "repoUrl": "https://github.com/privatenumber/vue-subslot",
+        "description": "When you want to pick out specific elements from a Vue component slot"
+    },
+    {
+        "name": "vue-svg-icon-set",
+        "repoUrl": "https://github.com/privatenumber/vue-svg-icon-set",
+        "description": "When you want to create an icon-set in Vue using Webpack"
+    },
+    {
+        "name": "vue-vnode-syringe",
+        "repoUrl": "https://github.com/privatenumber/vue-vnode-syringe",
+        "description": "When you want to add classes, attributes, or event-handlers to the slot content in a Vue component"
+    },
+    {
+        "name": "webpack-dependency-size",
+        "repoUrl": "https://github.com/privatenumber/webpack-dependency-size",
+        "description": "When you want to track or evaluate all the dependency files being bundled into your Webpack distribution"
+    },
+    {
+        "name": "webpack-distsize",
+        "repoUrl": "https://github.com/privatenumber/webpack-distsize",
+        "description": "When you want to track Webpack distribution size in your version control"
+    }
+]
