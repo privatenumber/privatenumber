@@ -10,4 +10,4 @@
 
 ☕️ If you want to support me, I'd love it if you could buy me a coffee :)
 
-<img src="https://img.shields.io/badge/cashapp-$HirokiOsame-%2300D54B">
+<a href="https://cash.app"><img src="https://img.shields.io/badge/cashapp-$HirokiOsame-%2300D54B"></a>
