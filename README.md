@@ -1,4 +1,4 @@
-### Hey, I'm Hiroki
+### Hey, I'm Hiroki 👋
 
 👨‍💻 I love working on open-source projects and giving back to the community.
 
