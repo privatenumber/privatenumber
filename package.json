@@ -5,7 +5,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run build; git add README.md"
+      "pre-commit": "npm run build && git add README.md"
     }
   },
   "devDependencies": {
