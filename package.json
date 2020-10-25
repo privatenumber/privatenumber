@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-  	"build": "node ./scripts/update-readme.js"
+    "build": "node ./scripts/update-readme.js"
   },
   "husky": {
     "hooks": {
@@ -9,7 +9,7 @@
     }
   },
   "devDependencies": {
-    "comment-mark": "github:privatenumber/comment-mark#built",
+    "comment-mark": "^1.0.0",
     "husky": "^4.3.0",
     "lodash": "^4.17.20"
   }
