@@ -49,6 +49,7 @@
 - [vue-vnode-syringe](https://github.com/privatenumber/vue-vnode-syringe) - add attributes and event-listeners to component `<slot>`s
 
 #### Webpack
+- [browser-reload-plugin](https://github.com/privatenumber/browser-reload-plugin) - automatically reload your browser page on Webpack watch builds
 - [code-inject-loader](https://github.com/privatenumber/code-inject-loader) - apply code transformations to certain files
 - [esbuild-loader](https://github.com/privatenumber/esbuild-loader) - speed up Webpack with [esbuild](https://github.com/evanw/esbuild)
 - [htmlvue-loader](https://github.com/privatenumber/htmlvue-loader) - import HTML/XML files (eg. SVGs) as Vue.js components
