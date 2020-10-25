@@ -114,6 +114,13 @@
         "repoUrl": "https://github.com/privatenumber/reactive-json-file"
     },
     {
+        "name": "comment-mark",
+        "npm": "comment-mark",
+        "description": "When you want to interpolate strings with HTML comment markers",
+        "category": "Miscellaneous",
+        "repoUrl": "https://github.com/privatenumber/comment-mark"
+    },
+    {
         "websiteUrl": "https://repkg.now.sh",
         "name": "repkg",
         "npm": false,

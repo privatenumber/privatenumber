@@ -21,6 +21,7 @@
 
 #### Miscellaneous
 - [cli-simple-table](https://github.com/privatenumber/cli-simple-table) - simply display tabular data in a CLI
+- [comment-mark](https://github.com/privatenumber/comment-mark) - interpolate strings with HTML comment markers
 - [mempack](https://github.com/privatenumber/mempack) - run a completely in-memory Webpack build
 - [minification-benchmarks](https://github.com/privatenumber/minification-benchmarks) - compare modern JS minifiers by performance
 - [reactive-json-file](https://github.com/privatenumber/reactive-json-file) - automatically save JS objects as you mutate them
