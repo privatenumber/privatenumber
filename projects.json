@@ -227,6 +227,13 @@
         "repoUrl": "https://github.com/privatenumber/vue-v"
     },
     {
+        "name": "browser-reload-plugin",
+        "npm": "browser-reload-plugin",
+        "description": "When you want to automatically reload your browser page on Webpack watch builds",
+        "category": "Webpack",
+        "repoUrl": "https://github.com/privatenumber/browser-reload-plugin"
+    },
+    {
         "name": "webpack-dependency-size",
         "npm": "webpack-dependency-size",
         "description": "When you want to track/evaluate dependencies bundled into a Webpack build",

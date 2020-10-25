@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "node ./scripts/update-readme.js"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run build && git add README.md"
+    }
+  },
+  "devDependencies": {
+    "comment-mark": "^1.0.0",
+    "husky": "^4.3.0",
+    "lodash": "^4.17.20"
+  }
+}
