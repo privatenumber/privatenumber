@@ -1,9 +1,7 @@
 {
   "private": true,
   "devDependencies": {
-    "lodash": "^4.17.20",
-    "sort-keys": "^4.0.0",
     "comment-mark": "github:privatenumber/comment-mark#built",
-    "markdown-table": "^2.0.0"
+    "lodash": "^4.17.20"
   }
 }
