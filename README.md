@@ -1,6 +1,6 @@
 Always looking for ways to improve the JavaScript community.
 
-💌 If you've enjoyed any of my projects, make my day by following me, starring my projects, or [tweeting @me](https://twitter.com/intent/tweet?text=@privatenumbr)!
+💌 If you've enjoyed any of my projects, make my day by starring them, following me, or [tweeting @me](https://twitter.com/intent/tweet?text=@privatenumbr)!
 
 ☕️ If you want to support me, I'd love it if you could buy me a coffee :) &nbsp;&nbsp;&nbsp;<a href="https://cash.app/$HirokiOsame"><img align="center" src="https://img.shields.io/badge/cashapp-$HirokiOsame-%2300D54B"></a>
 
