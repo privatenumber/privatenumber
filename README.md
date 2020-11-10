@@ -1,8 +1,8 @@
-Always looking for ways to improve the JavaScript community.
+#### Always looking for ways to benefit the JavaScript community. 🔭 🌟
 
-💌 If you've enjoyed any of my projects, make my day by starring them, following me, or [tweeting @me](https://twitter.com/intent/tweet?text=@privatenumbr)!
+😊 If you enjoyed any of my projects, make my day by starring them, following me, or [tweeting @me](https://twitter.com/intent/tweet?text=@privatenumbr)!
 
-☕️ If you want to support me, I'd love it if you could buy me a coffee :) &nbsp;&nbsp;&nbsp;<a href="https://cash.app/$HirokiOsame"><img align="center" src="https://img.shields.io/badge/cashapp-$HirokiOsame-%2300D54B"></a>
+❤️ If you want to support me, I'd love it if you could buy me a cup of tea 🍵 &nbsp;&nbsp;&nbsp;<a href="https://cash.app/$HirokiOsame"><img align="center" src="https://img.shields.io/badge/cashapp-$HirokiOsame-%2300D54B"></a>
 
 <details>
 	<summary>🌈 If you're interested in my work, here's my <em>Project Index</em></summary>
