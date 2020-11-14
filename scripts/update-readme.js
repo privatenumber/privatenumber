@@ -2,7 +2,11 @@ const fs = require('fs');
 const _ = require('lodash');
 const commentMark = require('comment-mark');
 
-let projects = require('../projects');
+let projects = require('../projects.json');
+
+projects.sort((a, b) => a.category.localeCompare(b.category) || a.name.localeCompare(b.name));
+
+fs.writeFileSync('./projects.json', JSON.stringify(projects, null, '\t'));
 
 projects = Object.entries(_.groupBy(projects, 'category'))
 			.sort((a,b) => a[0].localeCompare(b[0]))
