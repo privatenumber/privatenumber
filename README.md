@@ -5,7 +5,7 @@
 ❤️ If you want to support me, I'd love it if you could buy me a cup of tea 🍵 &nbsp;&nbsp;&nbsp;<a href="https://cash.app/$HirokiOsame"><img align="center" src="https://img.shields.io/badge/cashapp-$HirokiOsame-%2300D54B"></a>
 
 <details>
-	<summary>🌈 If you're interested in my work, here's my <em>Project Index</em></summary>
+	<summary>👨‍💻 If you're interested in seeing all the projects I maintain, here's my <em>Project Index</em></summary>
 
 <!-- projects:start -->
 #### CLIs
