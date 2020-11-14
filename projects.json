@@ -65,7 +65,7 @@
 	{
 		"name": "systemjs-unpkg",
 		"npm": "systemjs-unpkg",
-		"description": "Auto-resolve bare specifiers in SystemJS using UNPKG",
+		"description": "When you want to auto-resolve bare specifiers in SystemJS using UNPKG",
 		"category": "Miscellaneous",
 		"repoUrl": "https://github.com/privatenumber/systemjs-unpkg"
 	},

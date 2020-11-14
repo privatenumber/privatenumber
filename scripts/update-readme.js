@@ -1,4 +1,5 @@
 const fs = require('fs');
+const assert = require('assert');
 const _ = require('lodash');
 const commentMark = require('comment-mark');
 
@@ -16,6 +17,7 @@ projects = Object.entries(_.groupBy(projects, 'category'))
 					projects
 						.sort((a, b) => a.name.localeCompare(b.name))
 						.map(p => {
+							assert(p.description.startsWith('When you want to '), `Description for "${p.name}" must start with "When you want to "`);
 							const description = p.description.replace('When you want to ', '');
 							return `- [${p.name}](${p.repoUrl}) - ${description}`;
 						})
