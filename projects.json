@@ -21,6 +21,13 @@
 		"repoUrl": "https://github.com/privatenumber/markdown-it-add-attrs"
 	},
 	{
+		"name": "publish-size",
+		"npm": "@pvtnbr/publish-size",
+		"description": "When you want to measure the size of your npm package distribution",
+		"category": "CLIs",
+		"repoUrl": "https://github.com/privatenumber/pkg-size"
+	},
+	{
 		"name": "cli-simple-table",
 		"npm": "cli-simple-table",
 		"description": "When you want to simply display tabular data in a CLI",
@@ -166,6 +173,13 @@
 		"description": "When you want to render vNodes via component template",
 		"category": "Vue.js utils/tools",
 		"repoUrl": "https://github.com/privatenumber/vue-v"
+	},
+	{
+		"name": "vue-2-3",
+		"npm": "vue-2-3",
+		"description": "When you want to interop Vue 2 components in Vue 3 apps and vice versa",
+		"category": "Vue.js utils/tools",
+		"repoUrl": "https://github.com/privatenumber/vue-2-3"
 	},
 	{
 		"name": "vue-vnode-syringe",

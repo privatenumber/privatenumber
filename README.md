@@ -11,6 +11,7 @@
 #### CLIs
 - [deps](https://github.com/privatenumber/deps) - use V8 to identify which package dependencies are being executed
 - [i-peers](https://github.com/privatenumber/i-peers) - install your npm package's peerDependencies
+- [publish-size](https://github.com/privatenumber/pkg-size) - measure the size of your npm package distribution
 
 #### Markdown It!
 - [markdown-it-add-attrs](https://github.com/privatenumber/markdown-it-add-attrs) - add attributes to every markdown element
@@ -37,6 +38,7 @@
 - [vue-split-view](https://github.com/privatenumber/vue-split-view) - create an adjustable horizontal/vertical split-view in Vue.js
 
 #### Vue.js utils/tools
+- [vue-2-3](https://github.com/privatenumber/vue-2-3) - interop Vue 2 components in Vue 3 apps and vice versa
 - [vue-dom-hints](https://github.com/privatenumber/vue-dom-hints) - debug a Vue.js app without using [Vue.js devtools](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd?hl=en)
 - [vue-frag](https://github.com/privatenumber/vue-frag) - return multiple root elements from stateful components
 - [vue-just-ssr](https://github.com/privatenumber/vue-just-ssr) - add an SSR + HMR dev-env to a Webpack + Vue.js project
