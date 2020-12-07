@@ -14,8 +14,8 @@
 		"repoUrl": "https://github.com/privatenumber/i-peers"
 	},
 	{
-		"name": "publish-size",
-		"npm": "@pvtnbr/publish-size",
+		"name": "pkg-size",
+		"npm": "pkg-size",
 		"description": "When you want to measure the size of your npm package distribution",
 		"category": "CLIs",
 		"repoUrl": "https://github.com/privatenumber/pkg-size"

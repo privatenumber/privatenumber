@@ -4,7 +4,7 @@
 #### CLIs
 - [deps](https://github.com/privatenumber/deps) - use V8 to identify which package dependencies are being executed
 - [i-peers](https://github.com/privatenumber/i-peers) - install your npm package's peerDependencies
-- [publish-size](https://github.com/privatenumber/pkg-size) - measure the size of your npm package distribution
+- [pkg-size](https://github.com/privatenumber/pkg-size) - measure the size of your npm package distribution
 
 #### Markdown It!
 - [markdown-it-add-attrs](https://github.com/privatenumber/markdown-it-add-attrs) - add attributes to every markdown element
