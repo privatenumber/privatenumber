@@ -24,6 +24,7 @@
 - [postcss-import-alias](https://github.com/privatenumber/postcss-import-alias) - use aliases in `@import` statements
 
 #### Rollup plugins
+- [rollup-plugin-aggregate-exports](https://github.com/privatenumber/rollup-plugin-aggregate-exports) - emit an entry file to aggregate exports across multiple files
 - [rollup-plugin-htmlvue](https://github.com/privatenumber/rollup-plugin-htmlvue) - import HTML/XML files (eg. SVGs) as Vue.js components
 
 #### Vue.js UI components

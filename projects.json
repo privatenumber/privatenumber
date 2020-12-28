@@ -105,6 +105,13 @@
 		"repoUrl": "https://github.com/privatenumber/rollup-plugin-htmlvue"
 	},
 	{
+		"name": "rollup-plugin-aggregate-exports",
+		"npm": "rollup-plugin-aggregate-exports",
+		"description": "When you want to emit an entry file to aggregate exports across multiple files",
+		"category": "Rollup plugins",
+		"repoUrl": "https://github.com/privatenumber/rollup-plugin-aggregate-exports"
+	},
+	{
 		"name": "vue-demo-collapse",
 		"npm": "vue-demo-collapse",
 		"description": "When you want to nicely demo a Vue.js component with a collapsible code section",
