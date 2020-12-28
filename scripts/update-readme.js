@@ -5,6 +5,8 @@ const commentMark = require('comment-mark');
 
 let projects = require('../projects.json');
 
+console.log(`${projects.length} projects found`);
+
 projects.sort((a, b) => a.category.localeCompare(b.category) || a.name.localeCompare(b.name));
 
 fs.writeFileSync('./projects.json', JSON.stringify(projects, null, '\t'));

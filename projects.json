@@ -98,18 +98,18 @@
 		"repoUrl": "https://github.com/privatenumber/postcss-import-alias"
 	},
 	{
-		"name": "rollup-plugin-htmlvue",
-		"npm": "rollup-plugin-htmlvue",
-		"description": "When you want to import HTML/XML files (eg. SVGs) as Vue.js components",
-		"category": "Rollup plugins",
-		"repoUrl": "https://github.com/privatenumber/rollup-plugin-htmlvue"
-	},
-	{
 		"name": "rollup-plugin-aggregate-exports",
 		"npm": "rollup-plugin-aggregate-exports",
 		"description": "When you want to emit an entry file to aggregate exports across multiple files",
 		"category": "Rollup plugins",
 		"repoUrl": "https://github.com/privatenumber/rollup-plugin-aggregate-exports"
+	},
+	{
+		"name": "rollup-plugin-htmlvue",
+		"npm": "rollup-plugin-htmlvue",
+		"description": "When you want to import HTML/XML files (eg. SVGs) as Vue.js components",
+		"category": "Rollup plugins",
+		"repoUrl": "https://github.com/privatenumber/rollup-plugin-htmlvue"
 	},
 	{
 		"name": "vue-demo-collapse",
