@@ -10,6 +10,7 @@
 - [markdown-it-add-attrs](https://github.com/privatenumber/markdown-it-add-attrs) - add attributes to every markdown element
 
 #### Miscellaneous
+- [bfs](https://github.com/privatenumber/bfs) - find the path to a value in a complex JavaScript object
 - [cli-simple-table](https://github.com/privatenumber/cli-simple-table) - simply display tabular data in a CLI
 - [comment-mark](https://github.com/privatenumber/comment-mark) - interpolate strings with HTML comment markers
 - [mempack](https://github.com/privatenumber/mempack) - run a completely in-memory Webpack build
