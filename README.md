@@ -6,6 +6,10 @@
 - [i-peers](https://github.com/privatenumber/i-peers) - install your npm package's peerDependencies
 - [pkg-size](https://github.com/privatenumber/pkg-size) - measure the size of your npm package distribution
 
+#### Data
+- [minification-benchmarks](https://github.com/privatenumber/minification-benchmarks) - compare performance across popular JS minifiers
+- [webpack-playground](https://github.com/privatenumber/webpack-playground) - play with and learn about different Webpack configurations
+
 #### Markdown It!
 - [markdown-it-add-attrs](https://github.com/privatenumber/markdown-it-add-attrs) - add attributes to every markdown element
 

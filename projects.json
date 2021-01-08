@@ -303,5 +303,19 @@
 		"category": "Websites/Services",
 		"repoUrl": "https://github.com/privatenumber/repkg",
 		"websiteUrl": "https://repkg.now.sh"
+	},
+	{
+		"name": "webpack-playground",
+		"npm": false,
+		"description": "When you want to play with and learn about different Webpack configurations",
+		"category": "Data",
+		"repoUrl": "https://github.com/privatenumber/webpack-playground"
+	},
+	{
+		"name": "minification-benchmarks",
+		"npm": false,
+		"description": "When you want to compare performance across popular JS minifiers",
+		"category": "Data",
+		"repoUrl": "https://github.com/privatenumber/minification-benchmarks"
 	}
 ]
