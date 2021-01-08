@@ -70,13 +70,6 @@
 		"repoUrl": "https://github.com/privatenumber/mempack"
 	},
 	{
-		"name": "minification-benchmarks",
-		"npm": false,
-		"description": "When you want to compare modern JS minifiers by performance",
-		"category": "Miscellaneous",
-		"repoUrl": "https://github.com/privatenumber/minification-benchmarks"
-	},
-	{
 		"name": "npm-multi-publish",
 		"npm": "npm-multi-publish",
 		"description": "When you want to publish an npm package to multiple registries",

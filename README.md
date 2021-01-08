@@ -18,7 +18,6 @@
 - [cli-simple-table](https://github.com/privatenumber/cli-simple-table) - simply display tabular data in a CLI
 - [comment-mark](https://github.com/privatenumber/comment-mark) - interpolate strings with HTML comment markers
 - [mempack](https://github.com/privatenumber/mempack) - run a completely in-memory Webpack build
-- [minification-benchmarks](https://github.com/privatenumber/minification-benchmarks) - compare modern JS minifiers by performance
 - [npm-multi-publish](https://github.com/privatenumber/npm-multi-publish) - publish an npm package to multiple registries
 - [reactive-json-file](https://github.com/privatenumber/reactive-json-file) - automatically save JS objects as you mutate them
 - [systemjs-unpkg](https://github.com/privatenumber/systemjs-unpkg) - auto-resolve bare specifiers in SystemJS using UNPKG
