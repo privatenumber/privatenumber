@@ -21,6 +21,20 @@
 		"repoUrl": "https://github.com/privatenumber/pkg-size"
 	},
 	{
+		"name": "minification-benchmarks",
+		"npm": false,
+		"description": "When you want to compare performance across popular JS minifiers",
+		"category": "Data",
+		"repoUrl": "https://github.com/privatenumber/minification-benchmarks"
+	},
+	{
+		"name": "webpack-playground",
+		"npm": false,
+		"description": "When you want to play with and learn about different Webpack configurations",
+		"category": "Data",
+		"repoUrl": "https://github.com/privatenumber/webpack-playground"
+	},
+	{
 		"name": "markdown-it-add-attrs",
 		"npm": "markdown-it-add-attrs",
 		"description": "When you want to add attributes to every markdown element",
@@ -303,19 +317,5 @@
 		"category": "Websites/Services",
 		"repoUrl": "https://github.com/privatenumber/repkg",
 		"websiteUrl": "https://repkg.now.sh"
-	},
-	{
-		"name": "webpack-playground",
-		"npm": false,
-		"description": "When you want to play with and learn about different Webpack configurations",
-		"category": "Data",
-		"repoUrl": "https://github.com/privatenumber/webpack-playground"
-	},
-	{
-		"name": "minification-benchmarks",
-		"npm": false,
-		"description": "When you want to compare performance across popular JS minifiers",
-		"category": "Data",
-		"repoUrl": "https://github.com/privatenumber/minification-benchmarks"
 	}
 ]
