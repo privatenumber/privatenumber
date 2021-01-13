@@ -63,6 +63,13 @@
 		"repoUrl": "https://github.com/privatenumber/comment-mark"
 	},
 	{
+		"name": "gh-emojis",
+		"npm": "gh-emojis",
+		"description": "When you want to use GitHub emojis from their API as an npm package",
+		"category": "Miscellaneous",
+		"repoUrl": "https://github.com/privatenumber/gh-emojis"
+	},
+	{
 		"name": "mempack",
 		"npm": "mempack",
 		"description": "When you want to run a completely in-memory Webpack build",
