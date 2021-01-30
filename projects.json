@@ -35,6 +35,13 @@
 		"repoUrl": "https://github.com/privatenumber/minification-benchmarks"
 	},
 	{
+		"name": "rollup-playground",
+		"npm": false,
+		"description": "When you want to play with and learn about different Rollup configurations",
+		"category": "Data",
+		"repoUrl": "https://github.com/privatenumber/rollup-playground"
+	},
+	{
 		"name": "webpack-playground",
 		"npm": false,
 		"description": "When you want to play with and learn about different Webpack configurations",

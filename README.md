@@ -9,6 +9,7 @@
 
 #### Data
 - [minification-benchmarks](https://github.com/privatenumber/minification-benchmarks) - compare performance across popular JS minifiers
+- [rollup-playground](https://github.com/privatenumber/rollup-playground) - play with and learn about different Rollup configurations
 - [webpack-playground](https://github.com/privatenumber/webpack-playground) - play with and learn about different Webpack configurations
 
 #### Markdown It!
