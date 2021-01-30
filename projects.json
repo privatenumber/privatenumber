@@ -1,5 +1,12 @@
 [
 	{
+		"name": "ci",
+		"npm": "ci",
+		"description": "When you want to run npm ci using the appropriate Node package manager (npm, yarn, pnpm)",
+		"category": "CLIs",
+		"repoUrl": "https://github.com/privatenumber/ci"
+	},
+	{
 		"name": "deps",
 		"npm": "deps",
 		"description": "When you want to use V8 to identify which package dependencies are being executed",

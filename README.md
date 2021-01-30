@@ -2,6 +2,7 @@
 
 <!-- projects:start -->
 #### CLIs
+- [ci](https://github.com/privatenumber/ci) - run npm ci using the appropriate Node package manager (npm, yarn, pnpm)
 - [deps](https://github.com/privatenumber/deps) - use V8 to identify which package dependencies are being executed
 - [i-peers](https://github.com/privatenumber/i-peers) - install your npm package's peerDependencies
 - [pkg-size](https://github.com/privatenumber/pkg-size) - measure the size of your npm package distribution
