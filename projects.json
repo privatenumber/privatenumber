@@ -25,7 +25,7 @@
 		"npm": "pkg-size",
 		"description": "When you want to measure the size of your npm package distribution",
 		"category": "CLIs",
-		"repoUrl": "https://github.com/privatenumber/pkg-size"
+		"repoUrl": "https://github.com/pkg-size/pkg-size"
 	},
 	{
 		"name": "minification-benchmarks",
@@ -47,6 +47,13 @@
 		"description": "When you want to play with and learn about different Webpack configurations",
 		"category": "Data",
 		"repoUrl": "https://github.com/privatenumber/webpack-playground"
+	},
+	{
+		"name": "pkg-size-action",
+		"npm": false,
+		"description": "When you want to get size regression reports on your PRs",
+		"category": "GitHub Action",
+		"repoUrl": "https://github.com/pkg-size/action"
 	},
 	{
 		"name": "markdown-it-add-attrs",
