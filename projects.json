@@ -287,6 +287,13 @@
 		"repoUrl": "https://github.com/privatenumber/vue-import-loader"
 	},
 	{
+		"name": "webpack-analyze-duplication-plugin",
+		"npm": "webpack-analyze-duplication-plugin",
+		"description": "When you want to detect duplicated modules in your Webpack build",
+		"category": "Webpack",
+		"repoUrl": "https://github.com/privatenumber/webpack-analyze-duplication-plugin"
+	},
+	{
 		"name": "webpack-dependency-size",
 		"npm": "webpack-dependency-size",
 		"description": "When you want to track/evaluate dependencies bundled into a Webpack build",

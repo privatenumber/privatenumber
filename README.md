@@ -61,6 +61,7 @@
 - [md-vue-loader](https://github.com/privatenumber/md-vue-loader) - import markdown files as Vue.js components
 - [svg-trace-loader](https://github.com/privatenumber/svg-trace-loader) - flatten imported SVGs into a single `<path>`
 - [vue-import-loader](https://github.com/privatenumber/vue-import-loader) - auto-import & register components used in a Vue.js SFC template
+- [webpack-analyze-duplication-plugin](https://github.com/privatenumber/webpack-analyze-duplication-plugin) - detect duplicated modules in your Webpack build
 - [webpack-dependency-size](https://github.com/privatenumber/webpack-dependency-size) - track/evaluate dependencies bundled into a Webpack build
 - [webpack-distsize](https://github.com/privatenumber/webpack-distsize) - track Webpack distribution size in version control
 
