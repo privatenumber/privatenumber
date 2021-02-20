@@ -6,6 +6,7 @@
 - [deps](https://github.com/privatenumber/deps) - use V8 to identify which package dependencies are being executed
 - [i-peers](https://github.com/privatenumber/i-peers) - install your npm package's peerDependencies
 - [pkg-size](https://github.com/pkg-size/pkg-size) - measure the size of your npm package distribution
+- [playwright-start](https://github.com/privatenumber/playwright-start) - start a long-running Playwright browser server via CLI
 
 #### Data
 - [minification-benchmarks](https://github.com/privatenumber/minification-benchmarks) - compare performance across popular JS minifiers

@@ -28,6 +28,13 @@
 		"repoUrl": "https://github.com/pkg-size/pkg-size"
 	},
 	{
+		"name": "playwright-start",
+		"npm": "playwright-start",
+		"description": "When you want to start a long-running Playwright browser server via CLI",
+		"category": "CLIs",
+		"repoUrl": "https://github.com/privatenumber/playwright-start"
+	},
+	{
 		"name": "minification-benchmarks",
 		"npm": false,
 		"description": "When you want to compare performance across popular JS minifiers",
