@@ -93,7 +93,7 @@
 	{
 		"name": "gh-emojis",
 		"npm": "gh-emojis",
-		"description": "When you want to use GitHub emojis from their API as an npm package",
+		"description": "When you want to access the GitHub emojis API response as an npm package",
 		"category": "Miscellaneous",
 		"repoUrl": "https://github.com/privatenumber/gh-emojis"
 	},
