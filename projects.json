@@ -91,6 +91,13 @@
 		"repoUrl": "https://github.com/privatenumber/comment-mark"
 	},
 	{
+		"name": "fs.promises.exists",
+		"npm": "fs.promises.exists",
+		"description": "When you want to use a promise-based fs.existsSync() method",
+		"category": "Miscellaneous",
+		"repoUrl": "https://github.com/privatenumber/fs.promises.exists"
+	},
+	{
 		"name": "gh-emojis",
 		"npm": "gh-emojis",
 		"description": "When you want to access the GitHub emojis API response as an npm package",

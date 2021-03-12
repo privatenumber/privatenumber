@@ -23,6 +23,7 @@
 - [bfs](https://github.com/privatenumber/bfs) - find the path to a value in a complex JavaScript object
 - [cli-simple-table](https://github.com/privatenumber/cli-simple-table) - simply display tabular data in a CLI
 - [comment-mark](https://github.com/privatenumber/comment-mark) - interpolate strings with HTML comment markers
+- [fs.promises.exists](https://github.com/privatenumber/fs.promises.exists) - use a promise-based fs.existsSync() method
 - [gh-emojis](https://github.com/privatenumber/gh-emojis) - access the GitHub emojis API response as an npm package
 - [mempack](https://github.com/privatenumber/mempack) - run a completely in-memory Webpack build
 - [npm-multi-publish](https://github.com/privatenumber/npm-multi-publish) - publish an npm package to multiple registries
