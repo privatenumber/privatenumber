@@ -69,7 +69,7 @@
 
 #### Websites/Services
 - [github-cdn](https://github.com/privatenumber/github-cdn) - serve static content from a Github Enterprise server
-- [litemark](https://github.com/privatenumber/litemark) - edit your markdown with a live previw of what it would look like on GitHub
+- [litemark](https://github.com/privatenumber/litemark) - edit your markdown with a live preview of what it would look like on GitHub
 - [motion-orientation-api](https://github.com/privatenumber/motion-orientation-api) - visualize and understand the data you get from the [Motion & Orientation API](https://developers.google.com/web/fundamentals/native-hardware/device-orientation)
 - [postcss-preset-env-playground](https://github.com/privatenumber/postcss-preset-env-playground) - play with the different [PostCSS preset-env](https://github.com/csstools/postcss-preset-env/) configurations
 - [repkg](https://github.com/privatenumber/repkg) - convert or bundle a npm package (or a specific file) to AMD/UMD on demand

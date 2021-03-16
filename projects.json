@@ -331,7 +331,7 @@
 	{
 		"name": "litemark",
 		"npm": false,
-		"description": "When you want to edit your markdown with a live previw of what it would look like on GitHub",
+		"description": "When you want to edit your markdown with a live preview of what it would look like on GitHub",
 		"category": "Websites/Services",
 		"repoUrl": "https://github.com/privatenumber/litemark",
 		"websiteUrl": "https://privatenumber.github.io/litemark/"
