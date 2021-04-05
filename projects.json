@@ -35,6 +35,13 @@
 		"repoUrl": "https://github.com/privatenumber/playwright-start"
 	},
 	{
+		"name": "prerelease-checks",
+		"npm": "prerelease-checks",
+		"description": "When you want to run essential pre-release checks before releasing an npm package",
+		"category": "CLIs",
+		"repoUrl": "https://github.com/privatenumber/prerelease-checks"
+	},
+	{
 		"name": "minification-benchmarks",
 		"npm": false,
 		"description": "When you want to compare performance across popular JS minifiers",
