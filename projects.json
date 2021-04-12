@@ -196,6 +196,13 @@
 		"repoUrl": "https://github.com/privatenumber/vue-2-3"
 	},
 	{
+		"name": "vue-ast-utils",
+		"npm": "vue-ast-utils",
+		"description": "When you want to work with Vue 3 AST nodes",
+		"category": "Vue.js utils/tools",
+		"repoUrl": "https://github.com/privatenumber/vue-ast-utils"
+	},
+	{
 		"name": "vue-dom-hints",
 		"npm": "vue-dom-hints",
 		"description": "When you want to debug a Vue.js app without using [Vue.js devtools](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd?hl=en)",
@@ -208,6 +215,13 @@
 		"description": "When you want to return multiple root elements from stateful components",
 		"category": "Vue.js utils/tools",
 		"repoUrl": "https://github.com/privatenumber/vue-frag"
+	},
+	{
+		"name": "vue-grep",
+		"npm": "vue-grep",
+		"description": "When you want to grep your Vue.js codebase with CSS selectors",
+		"category": "Vue.js utils/tools",
+		"repoUrl": "https://github.com/privatenumber/vue-grep"
 	},
 	{
 		"name": "vue-just-ssr",

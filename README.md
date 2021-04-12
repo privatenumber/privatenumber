@@ -46,8 +46,10 @@
 
 #### Vue.js utils/tools
 - [vue-2-3](https://github.com/privatenumber/vue-2-3) - interop Vue 2 components in Vue 3 apps and vice versa
+- [vue-ast-utils](https://github.com/privatenumber/vue-ast-utils) - work with Vue 3 AST nodes
 - [vue-dom-hints](https://github.com/privatenumber/vue-dom-hints) - debug a Vue.js app without using [Vue.js devtools](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd?hl=en)
 - [vue-frag](https://github.com/privatenumber/vue-frag) - return multiple root elements from stateful components
+- [vue-grep](https://github.com/privatenumber/vue-grep) - grep your Vue.js codebase with CSS selectors
 - [vue-just-ssr](https://github.com/privatenumber/vue-just-ssr) - add an SSR + HMR dev-env to a Webpack + Vue.js project
 - [vue-proxi](https://github.com/privatenumber/vue-proxi) - proxy Vue.js component props and event-listeners to a child component
 - [vue-pseudo-window](https://github.com/privatenumber/vue-pseudo-window) - bind event-listeners to the window/document via template
