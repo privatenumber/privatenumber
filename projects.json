@@ -98,6 +98,13 @@
 		"repoUrl": "https://github.com/privatenumber/comment-mark"
 	},
 	{
+		"name": "dbgr",
+		"npm": "dbgr",
+		"description": "When you want to use a lightweight debugger alternative for Node.js",
+		"category": "Miscellaneous",
+		"repoUrl": "https://github.com/privatenumber/dbgr"
+	},
+	{
 		"name": "fs.promises.exists",
 		"npm": "fs.promises.exists",
 		"description": "When you want to use a promise-based fs.existsSync() method",
