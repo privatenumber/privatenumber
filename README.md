@@ -64,7 +64,7 @@
 - [code-inject-loader](https://github.com/privatenumber/code-inject-loader) - apply code transformations to certain files
 - [esbuild-loader](https://github.com/privatenumber/esbuild-loader) - speed up Webpack with [esbuild](https://github.com/evanw/esbuild)
 - [htmlvue-loader](https://github.com/privatenumber/htmlvue-loader) - import HTML/XML files (eg. SVGs) as Vue.js components
-- [instant-mocha](https://github.com/privatenumber/instant-mocha) - automatically reload your browser page on Webpack watch builds
+- [instant-mocha](https://github.com/privatenumber/instant-mocha) - build tests with Webpack and run them with Mocha in one command
 - [md-vue-loader](https://github.com/privatenumber/md-vue-loader) - import markdown files as Vue.js components
 - [svg-trace-loader](https://github.com/privatenumber/svg-trace-loader) - flatten imported SVGs into a single `<path>`
 - [vue-import-loader](https://github.com/privatenumber/vue-import-loader) - auto-import & register components used in a Vue.js SFC template

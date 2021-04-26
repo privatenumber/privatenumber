@@ -310,7 +310,7 @@
 	{
 		"name": "instant-mocha",
 		"npm": "instant-mocha",
-		"description": "When you want to automatically reload your browser page on Webpack watch builds",
+		"description": "When you want to build tests with Webpack and run them with Mocha in one command",
 		"category": "Webpack",
 		"repoUrl": "https://github.com/privatenumber/instant-mocha"
 	},
