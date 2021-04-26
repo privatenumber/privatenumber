@@ -308,6 +308,13 @@
 		"repoUrl": "https://github.com/privatenumber/htmlvue-loader"
 	},
 	{
+		"name": "instant-mocha",
+		"npm": "instant-mocha",
+		"description": "When you want to automatically reload your browser page on Webpack watch builds",
+		"category": "Webpack",
+		"repoUrl": "https://github.com/privatenumber/instant-mocha"
+	},
+	{
 		"name": "md-vue-loader",
 		"npm": "md-vue-loader",
 		"description": "When you want to import markdown files as Vue.js components",
