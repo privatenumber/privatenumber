@@ -70,6 +70,13 @@
 		"repoUrl": "https://github.com/pkg-size/action"
 	},
 	{
+		"name": "ink-task-list",
+		"npm": "ink-task-list",
+		"description": "When you want to render a task list in Ink",
+		"category": "Ink components",
+		"repoUrl": "https://github.com/privatenumber/ink-task-list"
+	},
+	{
 		"name": "markdown-it-add-attrs",
 		"npm": "markdown-it-add-attrs",
 		"description": "When you want to add attributes to every markdown element",

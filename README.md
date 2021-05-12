@@ -17,6 +17,9 @@
 #### GitHub Action
 - [pkg-size-action](https://github.com/pkg-size/action) - get size regression reports on your PRs
 
+#### Ink components
+- [ink-task-list](https://github.com/privatenumber/ink-task-list) - render a task list in Ink
+
 #### Markdown It!
 - [markdown-it-add-attrs](https://github.com/privatenumber/markdown-it-add-attrs) - add attributes to every markdown element
 
