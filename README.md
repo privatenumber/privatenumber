@@ -74,6 +74,7 @@
 - [webpack-analyze-duplication-plugin](https://github.com/privatenumber/webpack-analyze-duplication-plugin) - detect duplicated modules in your Webpack build
 - [webpack-dependency-size](https://github.com/privatenumber/webpack-dependency-size) - track/evaluate dependencies bundled into a Webpack build
 - [webpack-distsize](https://github.com/privatenumber/webpack-distsize) - track Webpack distribution size in version control
+- [webpack-localize-assets-plugin](https://github.com/privatenumber/webpack-localize-assets-plugin) - localize your Webpack build with multiple locales
 
 #### Websites/Services
 - [github-cdn](https://github.com/privatenumber/github-cdn) - serve static content from a Github Enterprise server

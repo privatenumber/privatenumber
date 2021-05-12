@@ -364,6 +364,13 @@
 		"repoUrl": "https://github.com/privatenumber/webpack-distsize"
 	},
 	{
+		"name": "webpack-localize-assets-plugin",
+		"npm": "webpack-localize-assets-plugin",
+		"description": "When you want to localize your Webpack build with multiple locales",
+		"category": "Webpack",
+		"repoUrl": "https://github.com/privatenumber/webpack-localize-assets-plugin"
+	},
+	{
 		"name": "github-cdn",
 		"npm": "github-cdn",
 		"description": "When you want to serve static content from a Github Enterprise server",
