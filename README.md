@@ -14,7 +14,7 @@
 - [rollup-playground](https://github.com/privatenumber/rollup-playground) - play with and learn about different Rollup configurations
 - [webpack-playground](https://github.com/privatenumber/webpack-playground) - play with and learn about different Webpack configurations
 
-#### GitHub Action
+#### GitHub Actions
 - [pkg-size-action](https://github.com/pkg-size/action) - get size regression reports on your PRs
 
 #### Ink components

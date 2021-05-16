@@ -66,7 +66,7 @@
 		"name": "pkg-size-action",
 		"npm": false,
 		"description": "When you want to get size regression reports on your PRs",
-		"category": "GitHub Action",
+		"category": "GitHub Actions",
 		"repoUrl": "https://github.com/pkg-size/action"
 	},
 	{
