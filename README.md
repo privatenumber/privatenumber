@@ -1,4 +1,10 @@
-### My Projects
+### Hi, I'm Hiroki
+
+I'm on a misson to open source tools to empower developers around the world, like you!
+
+Follow me on my journey!
+
+### Check out my projects
 
 <!-- projects:start -->
 #### CLIs
