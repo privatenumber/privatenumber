@@ -2,7 +2,7 @@
 
 I'm on a misson to open source tools to empower developers around the world, like you!
 
-Follow me on my journey!
+Follow me on my journey 🚀<sup> ✨</sup>
 
 ### Check out my projects
 
