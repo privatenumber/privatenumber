@@ -1,6 +1,6 @@
 ### Hi, I'm Hiroki
 
-I'm on a misson to open source tools to empower developers around the world, like you!
+I'm on a mission to open source tools to empower developers around the world, like you!
 
 Follow me on my journey 🚀<sup> ✨</sup>
 
