@@ -14,6 +14,7 @@ Follow me on my journey 🚀<sup> ✨</sup>
 - [pkg-size](https://github.com/pkg-size/pkg-size) - measure the size of your npm package distribution
 - [playwright-start](https://github.com/privatenumber/playwright-start) - start a long-running Playwright browser server via CLI
 - [prerelease-checks](https://github.com/privatenumber/prerelease-checks) - run essential pre-release checks before releasing an npm package
+- [snap-tweet](https://github.com/privatenumber/snap-tweet) - snap a clean and simple screenshot of a tweet
 
 #### Data
 - [minification-benchmarks](https://github.com/privatenumber/minification-benchmarks) - compare performance across popular JS minifiers

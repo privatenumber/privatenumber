@@ -42,6 +42,13 @@
 		"repoUrl": "https://github.com/privatenumber/prerelease-checks"
 	},
 	{
+		"name": "snap-tweet",
+		"npm": "snap-tweet",
+		"description": "When you want to snap a clean and simple screenshot of a tweet",
+		"category": "CLIs",
+		"repoUrl": "https://github.com/privatenumber/snap-tweet"
+	},
+	{
 		"name": "minification-benchmarks",
 		"npm": false,
 		"description": "When you want to compare performance across popular JS minifiers",
