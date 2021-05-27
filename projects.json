@@ -119,6 +119,13 @@
 		"repoUrl": "https://github.com/privatenumber/dbgr"
 	},
 	{
+		"name": "fs-require",
+		"npm": "fs-require",
+		"description": "When you want to create a `require()` function from any file-system",
+		"category": "Miscellaneous",
+		"repoUrl": "https://github.com/privatenumber/fs-require"
+	},
+	{
 		"name": "fs.promises.exists",
 		"npm": "fs.promises.exists",
 		"description": "When you want to use a promise-based fs.existsSync() method",
