@@ -1,19 +1,5 @@
 [
 	{
-		"name": "cli-simple-table",
-		"npm": "cli-simple-table",
-		"description": "When you want to simply display tabular data in a CLI",
-		"category": "CLI tools",
-		"repoUrl": "https://github.com/privatenumber/cli-simple-table"
-	},
-	{
-		"name": "tasuku",
-		"npm": "tasuku",
-		"description": "When you want to minimally display tasks running in your script",
-		"category": "CLI tools",
-		"repoUrl": "https://github.com/privatenumber/tasuku"
-	},
-	{
 		"name": "ci",
 		"npm": "ci",
 		"description": "When you want to run npm ci using the appropriate Node package manager (npm, yarn, pnpm)",
@@ -161,6 +147,13 @@
 		"repoUrl": "https://github.com/privatenumber/bfs"
 	},
 	{
+		"name": "cli-simple-table",
+		"npm": "cli-simple-table",
+		"description": "When you want to simply display tabular data in a CLI",
+		"category": "Utilities",
+		"repoUrl": "https://github.com/privatenumber/cli-simple-table"
+	},
+	{
 		"name": "comment-mark",
 		"npm": "comment-mark",
 		"description": "When you want to interpolate strings with HTML comment markers",
@@ -201,6 +194,13 @@
 		"description": "When you want to automatically save JS objects as you mutate them",
 		"category": "Utilities",
 		"repoUrl": "https://github.com/privatenumber/reactive-json-file"
+	},
+	{
+		"name": "tasuku",
+		"npm": "tasuku",
+		"description": "When you want to minimally display tasks running in your script",
+		"category": "Utilities",
+		"repoUrl": "https://github.com/privatenumber/tasuku"
 	},
 	{
 		"name": "vue-demo-collapse",

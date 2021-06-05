@@ -7,10 +7,6 @@ Follow me on my journey 🚀<sup> ✨</sup>
 ### Check out my projects
 
 <!-- projects:start -->
-#### CLI tools
-- [cli-simple-table](https://github.com/privatenumber/cli-simple-table) - simply display tabular data in a CLI
-- [tasuku](https://github.com/privatenumber/tasuku) - minimally display tasks running in your script
-
 #### Command-line tools
 - [ci](https://github.com/privatenumber/ci) - run npm ci using the appropriate Node package manager (npm, yarn, pnpm)
 - [deps](https://github.com/privatenumber/deps) - use V8 to identify which package dependencies are being executed
@@ -49,12 +45,14 @@ Follow me on my journey 🚀<sup> ✨</sup>
 
 #### Utilities
 - [bfs](https://github.com/privatenumber/bfs) - find the path to a value in a complex JavaScript object
+- [cli-simple-table](https://github.com/privatenumber/cli-simple-table) - simply display tabular data in a CLI
 - [comment-mark](https://github.com/privatenumber/comment-mark) - interpolate strings with HTML comment markers
 - [dbgr](https://github.com/privatenumber/dbgr) - use a lightweight debugger alternative for Node.js
 - [fs-require](https://github.com/privatenumber/fs-require) - create a `require()` function from any file-system
 - [fs.promises.exists](https://github.com/privatenumber/fs.promises.exists) - use a promise-based fs.existsSync() method
 - [mempack](https://github.com/privatenumber/mempack) - run a completely in-memory Webpack build
 - [reactive-json-file](https://github.com/privatenumber/reactive-json-file) - automatically save JS objects as you mutate them
+- [tasuku](https://github.com/privatenumber/tasuku) - minimally display tasks running in your script
 
 #### Vue.js UI components
 - [vue-demo-collapse](https://github.com/privatenumber/vue-demo-collapse) - nicely demo a Vue.js component with a collapsible code section
