@@ -7,10 +7,15 @@ Follow me on my journey 🚀<sup> ✨</sup>
 ### Check out my projects
 
 <!-- projects:start -->
-#### CLIs
+#### CLI tools
+- [cli-simple-table](https://github.com/privatenumber/cli-simple-table) - simply display tabular data in a CLI
+- [tasuku](https://github.com/privatenumber/tasuku) - minimally display tasks running in your script
+
+#### Command-line tools
 - [ci](https://github.com/privatenumber/ci) - run npm ci using the appropriate Node package manager (npm, yarn, pnpm)
 - [deps](https://github.com/privatenumber/deps) - use V8 to identify which package dependencies are being executed
 - [i-peers](https://github.com/privatenumber/i-peers) - install your npm package's peerDependencies
+- [npm-multi-publish](https://github.com/privatenumber/npm-multi-publish) - publish an npm package to multiple registries
 - [pkg-size](https://github.com/pkg-size/pkg-size) - measure the size of your npm package distribution
 - [playwright-start](https://github.com/privatenumber/playwright-start) - start a long-running Playwright browser server via CLI
 - [prerelease-checks](https://github.com/privatenumber/prerelease-checks) - run essential pre-release checks before releasing an npm package
@@ -21,7 +26,7 @@ Follow me on my journey 🚀<sup> ✨</sup>
 - [rollup-playground](https://github.com/privatenumber/rollup-playground) - play with and learn about different Rollup configurations
 - [webpack-playground](https://github.com/privatenumber/webpack-playground) - play with and learn about different Webpack configurations
 
-#### GitHub Actions
+#### GitHub actions
 - [pkg-size-action](https://github.com/pkg-size/action) - get size regression reports on your PRs
 
 #### Ink components
@@ -31,16 +36,7 @@ Follow me on my journey 🚀<sup> ✨</sup>
 - [markdown-it-add-attrs](https://github.com/privatenumber/markdown-it-add-attrs) - add attributes to every markdown element
 
 #### Miscellaneous
-- [bfs](https://github.com/privatenumber/bfs) - find the path to a value in a complex JavaScript object
-- [cli-simple-table](https://github.com/privatenumber/cli-simple-table) - simply display tabular data in a CLI
-- [comment-mark](https://github.com/privatenumber/comment-mark) - interpolate strings with HTML comment markers
-- [dbgr](https://github.com/privatenumber/dbgr) - use a lightweight debugger alternative for Node.js
-- [fs-require](https://github.com/privatenumber/fs-require) - create a `require()` function from any file-system
-- [fs.promises.exists](https://github.com/privatenumber/fs.promises.exists) - use a promise-based fs.existsSync() method
 - [gh-emojis](https://github.com/privatenumber/gh-emojis) - access the GitHub emojis API response as an npm package
-- [mempack](https://github.com/privatenumber/mempack) - run a completely in-memory Webpack build
-- [npm-multi-publish](https://github.com/privatenumber/npm-multi-publish) - publish an npm package to multiple registries
-- [reactive-json-file](https://github.com/privatenumber/reactive-json-file) - automatically save JS objects as you mutate them
 - [systemjs-unpkg](https://github.com/privatenumber/systemjs-unpkg) - auto-resolve bare specifiers in SystemJS using UNPKG
 
 #### PostCSS plugins
@@ -50,6 +46,15 @@ Follow me on my journey 🚀<sup> ✨</sup>
 #### Rollup plugins
 - [rollup-plugin-aggregate-exports](https://github.com/privatenumber/rollup-plugin-aggregate-exports) - emit an entry file to aggregate exports across multiple files
 - [rollup-plugin-htmlvue](https://github.com/privatenumber/rollup-plugin-htmlvue) - import HTML/XML files (eg. SVGs) as Vue.js components
+
+#### Utilities
+- [bfs](https://github.com/privatenumber/bfs) - find the path to a value in a complex JavaScript object
+- [comment-mark](https://github.com/privatenumber/comment-mark) - interpolate strings with HTML comment markers
+- [dbgr](https://github.com/privatenumber/dbgr) - use a lightweight debugger alternative for Node.js
+- [fs-require](https://github.com/privatenumber/fs-require) - create a `require()` function from any file-system
+- [fs.promises.exists](https://github.com/privatenumber/fs.promises.exists) - use a promise-based fs.existsSync() method
+- [mempack](https://github.com/privatenumber/mempack) - run a completely in-memory Webpack build
+- [reactive-json-file](https://github.com/privatenumber/reactive-json-file) - automatically save JS objects as you mutate them
 
 #### Vue.js UI components
 - [vue-demo-collapse](https://github.com/privatenumber/vue-demo-collapse) - nicely demo a Vue.js component with a collapsible code section
