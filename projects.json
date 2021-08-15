@@ -322,6 +322,13 @@
 		"repoUrl": "https://github.com/privatenumber/code-inject-loader"
 	},
 	{
+		"name": "entry-file-plugin",
+		"npm": "entry-file-plugin",
+		"description": "When you want to create an ESM entry-point to consolidate entry-points",
+		"category": "Webpack",
+		"repoUrl": "https://github.com/privatenumber/entry-file-plugin"
+	},
+	{
 		"name": "esbuild-loader",
 		"npm": "esbuild-loader",
 		"description": "When you want to speed up Webpack with [esbuild](https://github.com/evanw/esbuild)",

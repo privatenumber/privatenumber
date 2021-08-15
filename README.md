@@ -76,6 +76,7 @@ Follow me on my journey 🚀<sup> ✨</sup>
 #### Webpack
 - [browser-reload-plugin](https://github.com/privatenumber/browser-reload-plugin) - automatically reload your browser page on Webpack watch builds
 - [code-inject-loader](https://github.com/privatenumber/code-inject-loader) - apply code transformations to certain files
+- [entry-file-plugin](https://github.com/privatenumber/entry-file-plugin) - create an ESM entry-point to consolidate entry-points
 - [esbuild-loader](https://github.com/privatenumber/esbuild-loader) - speed up Webpack with [esbuild](https://github.com/evanw/esbuild)
 - [htmlvue-loader](https://github.com/privatenumber/htmlvue-loader) - import HTML/XML files (eg. SVGs) as Vue.js components
 - [instant-mocha](https://github.com/privatenumber/instant-mocha) - build tests with Webpack and run them with Mocha in one command
