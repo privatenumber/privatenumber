@@ -203,6 +203,13 @@
 		"repoUrl": "https://github.com/privatenumber/tasuku"
 	},
 	{
+		"name": "type-flag",
+		"npm": "type-flag",
+		"description": "When you want to parse CLI argv flags with first-class type support",
+		"category": "Utilities",
+		"repoUrl": "https://github.com/privatenumber/type-flag"
+	},
+	{
 		"name": "vue-demo-collapse",
 		"npm": "vue-demo-collapse",
 		"description": "When you want to nicely demo a Vue.js component with a collapsible code section",
