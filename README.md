@@ -74,6 +74,9 @@ Follow me on my journey 🚀<sup> ✨</sup>
 - [vue-v](https://github.com/privatenumber/vue-v) - render vNodes via component template
 - [vue-vnode-syringe](https://github.com/privatenumber/vue-vnode-syringe) - add attributes and event-listeners to component `<slot>`s
 
+#### Web utilities
+- [svg-browser-export](https://github.com/privatenumber/svg-browser-export) - export SVG to PNG, JPEG, or WEBP in the browser
+
 #### Webpack
 - [browser-reload-plugin](https://github.com/privatenumber/browser-reload-plugin) - automatically reload your browser page on Webpack watch builds
 - [code-inject-loader](https://github.com/privatenumber/code-inject-loader) - apply code transformations to certain files

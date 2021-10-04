@@ -315,6 +315,13 @@
 		"repoUrl": "https://github.com/privatenumber/vue-vnode-syringe"
 	},
 	{
+		"name": "svg-browser-export",
+		"npm": "svg-browser-export",
+		"description": "When you want to export SVG to PNG, JPEG, or WEBP in the browser",
+		"category": "Web utilities",
+		"repoUrl": "https://github.com/privatenumber/svg-browser-export"
+	},
+	{
 		"name": "browser-reload-plugin",
 		"npm": "browser-reload-plugin",
 		"description": "When you want to automatically reload your browser page on Webpack watch builds",
