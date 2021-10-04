@@ -406,6 +406,13 @@
 		"repoUrl": "https://github.com/privatenumber/webpack-distsize"
 	},
 	{
+		"name": "webpack-json-access-optimizer",
+		"npm": "webpack-json-access-optimizer",
+		"description": "When you want to tree-shake and minify JSON modules",
+		"category": "Webpack",
+		"repoUrl": "https://github.com/privatenumber/webpack-json-access-optimizer"
+	},
+	{
 		"name": "webpack-localize-assets-plugin",
 		"npm": "webpack-localize-assets-plugin",
 		"description": "When you want to localize your Webpack build with multiple locales",
