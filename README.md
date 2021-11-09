@@ -64,7 +64,8 @@ Follow me on my journey 🚀<sup> ✨</sup>
 - [vue-2-3](https://github.com/privatenumber/vue-2-3) - interop Vue 2 components in Vue 3 apps and vice versa
 - [vue-ast-utils](https://github.com/privatenumber/vue-ast-utils) - work with Vue 3 AST nodes
 - [vue-dom-hints](https://github.com/privatenumber/vue-dom-hints) - debug a Vue.js app without using [Vue.js devtools](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd?hl=en)
-- [vue-frag](https://github.com/privatenumber/vue-frag) - return multiple root elements from stateful components
+- [vue-frag](https://github.com/privatenumber/vue-frag) - create a Fragment (multiple root-nodes) in Vue 2
+- [vue-frag-plugin](https://github.com/privatenumber/vue-frag-plugin) - add multiple root-node support to SFCs in Vue 2 via Webpack/Rollup/Vite plugin
 - [vue-grep](https://github.com/privatenumber/vue-grep) - grep your Vue.js codebase with CSS selectors
 - [vue-just-ssr](https://github.com/privatenumber/vue-just-ssr) - add an SSR + HMR dev-env to a Webpack + Vue.js project
 - [vue-proxi](https://github.com/privatenumber/vue-proxi) - proxy Vue.js component props and event-listeners to a child component

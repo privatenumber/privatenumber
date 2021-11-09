@@ -254,9 +254,16 @@
 	{
 		"name": "vue-frag",
 		"npm": "vue-frag",
-		"description": "When you want to return multiple root elements from stateful components",
+		"description": "When you want to create a Fragment (multiple root-nodes) in Vue 2",
 		"category": "Vue.js utils/tools",
 		"repoUrl": "https://github.com/privatenumber/vue-frag"
+	},
+	{
+		"name": "vue-frag-plugin",
+		"npm": "vue-frag-plugin",
+		"description": "When you want to add multiple root-node support to SFCs in Vue 2 via Webpack/Rollup/Vite plugin",
+		"category": "Vue.js utils/tools",
+		"repoUrl": "https://github.com/privatenumber/vue-frag-plugin"
 	},
 	{
 		"name": "vue-grep",
