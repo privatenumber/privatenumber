@@ -427,6 +427,13 @@
 		"repoUrl": "https://github.com/privatenumber/webpack-localize-assets-plugin"
 	},
 	{
+		"name": "webpack-test-utils",
+		"npm": "webpack-test-utils",
+		"description": "When you want to write in-memory tests for Webpack loaders & plugins",
+		"category": "Webpack",
+		"repoUrl": "https://github.com/privatenumber/webpack-test-utils"
+	},
+	{
 		"name": "github-cdn",
 		"npm": "github-cdn",
 		"description": "When you want to serve static content from a Github Enterprise server",

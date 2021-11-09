@@ -93,6 +93,7 @@ Follow me on my journey 🚀<sup> ✨</sup>
 - [webpack-distsize](https://github.com/privatenumber/webpack-distsize) - track Webpack distribution size in version control
 - [webpack-json-access-optimizer](https://github.com/privatenumber/webpack-json-access-optimizer) - tree-shake and minify JSON modules
 - [webpack-localize-assets-plugin](https://github.com/privatenumber/webpack-localize-assets-plugin) - localize your Webpack build with multiple locales
+- [webpack-test-utils](https://github.com/privatenumber/webpack-test-utils) - write in-memory tests for Webpack loaders & plugins
 
 #### Websites/Services
 - [github-cdn](https://github.com/privatenumber/github-cdn) - serve static content from a Github Enterprise server
