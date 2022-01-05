@@ -53,6 +53,7 @@ Follow me on my journey 🚀<sup> ✨</sup>
 - [mempack](https://github.com/privatenumber/mempack) - run a completely in-memory Webpack build
 - [reactive-json-file](https://github.com/privatenumber/reactive-json-file) - automatically save JS objects as you mutate them
 - [tasuku](https://github.com/privatenumber/tasuku) - minimally display tasks running in your script
+- [terminal-columns](https://github.com/privatenumber/terminal-columns) - render readable & responsive tables in the terminal
 - [type-flag](https://github.com/privatenumber/type-flag) - parse CLI argv flags with first-class type support
 
 #### Vue.js UI components

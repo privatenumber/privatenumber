@@ -203,6 +203,13 @@
 		"repoUrl": "https://github.com/privatenumber/tasuku"
 	},
 	{
+		"name": "terminal-columns",
+		"npm": "terminal-columns",
+		"description": "When you want to render readable & responsive tables in the terminal",
+		"category": "Utilities",
+		"repoUrl": "https://github.com/privatenumber/terminal-columns"
+	},
+	{
 		"name": "type-flag",
 		"npm": "type-flag",
 		"description": "When you want to parse CLI argv flags with first-class type support",
