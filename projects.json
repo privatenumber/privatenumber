@@ -147,6 +147,13 @@
 		"repoUrl": "https://github.com/privatenumber/bfs"
 	},
 	{
+		"name": "cleye",
+		"npm": "cleye",
+		"description": "When you want to develop a strongly typed command-line interface",
+		"category": "Utilities",
+		"repoUrl": "https://github.com/privatenumber/cleye"
+	},
+	{
 		"name": "cli-simple-table",
 		"npm": "cli-simple-table",
 		"description": "When you want to simply display tabular data in a CLI",

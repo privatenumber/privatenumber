@@ -45,6 +45,7 @@ Follow me on my journey 🚀<sup> ✨</sup>
 
 #### Utilities
 - [bfs](https://github.com/privatenumber/bfs) - find the path to a value in a complex JavaScript object
+- [cleye](https://github.com/privatenumber/cleye) - develop a strongly typed command-line interface
 - [cli-simple-table](https://github.com/privatenumber/cli-simple-table) - simply display tabular data in a CLI
 - [comment-mark](https://github.com/privatenumber/comment-mark) - interpolate strings with HTML comment markers
 - [dbgr](https://github.com/privatenumber/dbgr) - use a lightweight debugger alternative for Node.js
