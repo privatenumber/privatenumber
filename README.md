@@ -9,5 +9,5 @@
 
   <a href="https://twitter.com/privatenumbr">
     💬&nbsp;&nbsp;Twitter
-  </a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  </a>
 </h3>
