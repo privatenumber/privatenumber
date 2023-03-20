@@ -10,8 +10,4 @@
   <a href="https://twitter.com/privatenumbr">
     💬&nbsp;&nbsp;Twitter
   </a>&nbsp;&nbsp;·&nbsp;&nbsp;
-
-  <a href="https://www.instagram.com/private.number_">
-    📸&nbsp;&nbsp;Instagram
-  </a>
 </h3>
