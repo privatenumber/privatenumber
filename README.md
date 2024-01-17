@@ -14,7 +14,8 @@
 
 <br>
 
-> <b>Interested in working with me at <img align="center" height="20" src="https://api.iconify.design/mdi:square-inc.svg">Square?</b>
+
+> <b>Interested in working with me at <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/square-white.svg"><img height="20" align="center" src="./assets/square-black.svg"></picture> Square?</b>
 >
 > I'm currently a Software Engineer in the ECOM department at Square / Block.
 >
