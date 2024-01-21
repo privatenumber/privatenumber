@@ -15,7 +15,7 @@
 <br>
 
 
-> 👨‍💻 <b>Interested in working with me at <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/square-white.svg"><img height="20" align="center" src="./assets/square-black.svg"></picture> Square?</b>
+> <h4>👨‍💻 Interested in working with me at <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/square-white.svg"><img height="20" align="center" src="./assets/square-black.svg"></picture> Square?</h4>
 >
 > I'm currently a Software Engineer in the ECOM department at Square / Block.
 >
