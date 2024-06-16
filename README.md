@@ -22,3 +22,11 @@
 > If you're interested in exploring a [career oppourtunity at Square](https://careers.squareup.com/us/en), feel free to [send me a DM](https://x.com/privatenumbr)!
 
 <br>
+
+<h6 align="center">Thank you to everyone who has supported my work 💞</h6>
+<p align="center">
+	<a href="https://github.com/sponsors/privatenumber">
+		<img src="https://cdn.jsdelivr.net/gh/privatenumber/sponsors/sponsorkit/list.svg">
+	</a>
+</p>
+
