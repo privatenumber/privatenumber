@@ -1,0 +1,17 @@
+{
+	"packageManager": "pnpm@9.11.0",
+	"scripts": {
+		"lint": "lintroll . --ignore-pattern sponsors.json"
+	},
+	"dependencies": {
+		"comment-mark": "^1.1.1"
+	},
+	"devDependencies": {
+		"@octokit/graphql": "^8.1.1",
+		"@types/node": "^22.7.3",
+		"code-tag": "^1.2.0",
+		"lintroll": "^1.10.0",
+		"tsx": "^4.19.1",
+		"typescript": "^5.6.2"
+	}
+}
