@@ -1,14 +1,18 @@
 <h4 align="center">
-  <a href="https://hirok.io/projects">
-    🌟&nbsp;&nbsp;Projects
+  <a href="https://hirok.io">
+    👤&nbsp;&nbsp;Website
   </a>&nbsp;&nbsp;·&nbsp;&nbsp;
 
   <a href="https://hirok.io/posts">
     📖&nbsp;&nbsp;Blog
   </a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  
+  <a href="https://hirok.io/contact">
+    💬&nbsp;&nbsp;Contact
+  </a>&nbsp;&nbsp;·&nbsp;&nbsp;
 
   <a href="https://x.com/privatenumbr">
-    💬&nbsp;&nbsp;X
+    ⭐️&nbsp;&nbsp;Follow
   </a>
 </h4>
 
