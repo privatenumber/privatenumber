@@ -119,11 +119,27 @@ const generateHtml = (
 		}
 	}
 
-	const data = {
+	type SponsorsData = {
+		users: string[];
+		organizations: string[];
+		fetched: Date;
+	};
+
+	const data: SponsorsData = {
 		users: userSponsors,
 		organizations: orgSponsors,
 		fetched: new Date(),
 	};
+
+	const currentSponsorsDataString = await fs.readFile('./sponsors.json', 'utf8');
+	const currentSponsorsData = JSON.parse(currentSponsorsDataString) as SponsorsData;
+	if (
+		JSON.stringify(currentSponsorsData.users) === JSON.stringify(data.users)
+		&& JSON.stringify(currentSponsorsData.organizations) === JSON.stringify(data.organizations)
+	) {
+		console.log('No changes detected');
+		return;
+	}
 
 	console.log(data);
 
