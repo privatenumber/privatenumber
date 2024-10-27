@@ -1,3 +1,4 @@
+// pnpm tsx --env-file=.env ./scripts/fetch-sponsors.ts
 import fs from 'fs/promises';
 import { graphql } from '@octokit/graphql';
 import { gql } from 'code-tag';
