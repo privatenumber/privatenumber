@@ -98,7 +98,7 @@ const generateHtml = (
 	<p align="center">${
 		sponsors
 			.map(
-				username => `<a href="https://github.com/${username}" title="${username}"><img src="https://github.com/${username}.png?size=60" width="30"></a>`,
+				username => `<a href="https://github.com/${username}" title="${username}"><img src="https://avatars.githubusercontent.com/${username}?s=60" width="30"></a>`,
 			)
 			.join(' ')
 	}</p>
