@@ -7,10 +7,6 @@ settings:
 importers:
 
   .:
-    dependencies:
-      comment-mark:
-        specifier: ^1.1.1
-        version: 1.1.1
     devDependencies:
       '@octokit/graphql':
         specifier: ^8.1.1
@@ -18,9 +14,15 @@ importers:
       '@types/node':
         specifier: ^22.7.3
         version: 22.7.3
+      cleye:
+        specifier: ^2.2.1
+        version: 2.2.1
       code-tag:
         specifier: ^1.2.0
         version: 1.2.0
+      comment-mark:
+        specifier: ^1.1.1
+        version: 1.1.1
       lintroll:
         specifier: ^1.10.0
         version: 1.10.0(typescript@5.6.2)
@@ -486,6 +488,9 @@ packages:
 
   cleye@1.3.2:
     resolution: {integrity: sha512-MngIC2izcCz07iRKr3Pe8Z6ZBv4zbKFl/YnQEN/aMHis6PpH+MxI2e6n0bMUAmSVlMoAyQkdBCSTbfDmtcSovQ==}
+
+  cleye@2.2.1:
+    resolution: {integrity: sha512-eZzJGlG3N6+IsKV+297HIRS2fyRsLMOrx62hGUmmcyOtP/I+L7JVeSKZH49WZUdVB8NoaZOUvq01363I/PHJiA==}
 
   code-tag@1.2.0:
     resolution: {integrity: sha512-5O79BzMWQxXQKJiubtwtIXqXsgd9u90xvze+K5PLajtM4ewM2emlEvLBdvgviXORHrBmzijG9+6qPtt+xpkv9Q==}
@@ -1578,6 +1583,9 @@ packages:
   terminal-columns@1.4.1:
     resolution: {integrity: sha512-IKVL/itiMy947XWVv4IHV7a0KQXvKjj4ptbi7Ew9MPMcOLzkiQeyx3Gyvh62hKrfJ0RZc4M1nbhzjNM39Kyujw==}
 
+  terminal-columns@2.0.0:
+    resolution: {integrity: sha512-6IByuUjyNZJXUtwDNm+OIe62zgwwaRbH+WMNTcx05O2G5V9WhvluAAHJY8OvUdwmzMPpqAD/7EUpGdI6ae1aiQ==}
+
   text-table@0.2.0:
     resolution: {integrity: sha512-N+8UisAXDGk8PFXP4HAzVR9nbfmVJ3zYLAWiTIoqC5v5isinhr+r5uaO8+7r3BMfuNIufIsA7RdpVgacC2cSpw==}
 
@@ -1617,6 +1625,9 @@ packages:
 
   type-flag@3.0.0:
     resolution: {integrity: sha512-3YaYwMseXCAhBB14RXW5cRQfJQlEknS6i4C8fCfeUdS3ihG9EdccdR9kt3vP73ZdeTGmPb4bZtkDn5XMIn1DLA==}
+
+  type-flag@4.0.3:
+    resolution: {integrity: sha512-YA09cL07U7hSV+/doSfKl+RkIZ2olCnevZsVgAuyBUG3h2ROf9Oh2vmbq5Rf26aA9/qu9RtStuc7ap5PC6k/vw==}
 
   typed-array-buffer@1.0.2:
     resolution: {integrity: sha512-gEymJYKZtKXzzBzM4jqa9w6Q1Jjm7x2d+sh19AdsD4wqnMPDYyvwpsIc2Q/835kHuo3BEQ7CjelGhfTsoBb2MQ==}
@@ -2163,6 +2174,11 @@ snapshots:
     dependencies:
       terminal-columns: 1.4.1
       type-flag: 3.0.0
+
+  cleye@2.2.1:
+    dependencies:
+      terminal-columns: 2.0.0
+      type-flag: 4.0.3
 
   code-tag@1.2.0: {}
 
@@ -3482,6 +3498,8 @@ snapshots:
 
   terminal-columns@1.4.1: {}
 
+  terminal-columns@2.0.0: {}
+
   text-table@0.2.0: {}
 
   to-regex-range@5.0.1:
@@ -3512,6 +3530,8 @@ snapshots:
   type-fest@0.8.1: {}
 
   type-flag@3.0.0: {}
+
+  type-flag@4.0.3: {}
 
   typed-array-buffer@1.0.2:
     dependencies:

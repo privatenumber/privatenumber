@@ -1,8 +1,19 @@
-// pnpm tsx --env-file=.env ./scripts/fetch-sponsors.ts
 import fs from 'fs/promises';
+import { cli } from 'cleye';
 import { graphql } from '@octokit/graphql';
 import { gql } from 'code-tag';
 import commentMark from 'comment-mark';
+
+const argv = cli({
+	name: 'fetch-sponsors',
+	flags: {
+		force: {
+			type: Boolean,
+			alias: 'f',
+			description: 'Force update even if no changes detected',
+		},
+	},
+});
 
 type GitHubGraphQlPageInfo = {
 	endCursor: string;
@@ -135,7 +146,8 @@ const generateHtml = (
 	const currentSponsorsDataString = await fs.readFile('./sponsors.json', 'utf8');
 	const currentSponsorsData = JSON.parse(currentSponsorsDataString) as SponsorsData;
 	if (
-		JSON.stringify(currentSponsorsData.users) === JSON.stringify(data.users)
+		!argv.flags.force
+		&& JSON.stringify(currentSponsorsData.users) === JSON.stringify(data.users)
 		&& JSON.stringify(currentSponsorsData.organizations) === JSON.stringify(data.organizations)
 	) {
 		console.log('No changes detected');
