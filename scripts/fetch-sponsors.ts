@@ -2,7 +2,7 @@ import fs from 'fs/promises';
 import { cli } from 'cleye';
 import { graphql } from '@octokit/graphql';
 import { gql } from 'code-tag';
-import commentMark from 'comment-mark';
+import { commentMark } from 'comment-mark';
 
 const argv = cli({
 	name: 'fetch-sponsors',
@@ -31,7 +31,7 @@ type GraphQlResult<Property extends string, T> = {
 
 const getAllPages = async <
 	Property extends string,
-	Fetch extends (cursor?: string) => Promise<GraphQlResult<Property, unknown>>
+	Fetch extends (cursor?: string) => Promise<GraphQlResult<Property, unknown>>,
 >(
 	property: Property,
 	getPage: Fetch,
@@ -162,11 +162,11 @@ const generateHtml = (
 	);
 
 	let readme = await fs.readFile('./README.md', 'utf8');
-	readme = commentMark(readme, {
+	readme = String(commentMark(readme, {
 		sponsors: generateHtml([
 			...orgSponsors,
 			...userSponsors,
 		]),
-	});
+	}));
 	await fs.writeFile('./README.md', readme);
 })();
