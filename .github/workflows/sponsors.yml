@@ -16,17 +16,21 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
+        with:
+          persist-credentials: false
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@41ff72655975bd51cab0327fa583b6e92b6d3061 # v4
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238 # v6
         with:
-          node-version: lts/*
+          node-version-file: .nvmrc
+          cache: pnpm
 
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v4
-        with:
-          run_install: true
+      - name: Install dependencies
+        run: pnpm install
 
       - name: Fetch sponsors
         run: pnpm tsx ./scripts/fetch-sponsors.ts
@@ -34,7 +38,11 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
 
       - name: Commit
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
         run: |
+          set -euo pipefail
+
           if [[ -z $(git status --porcelain --untracked-files=no) ]]; then
             echo "No changes to commit"
             exit 0
@@ -43,4 +51,4 @@ jobs:
           git config user.name 'Hiroki Osame'
           git config user.email 'hiroki.osame@gmail.com'
           git commit -am 'chore: update sponsors'
-          git push
+          git -c "http.https://github.com/.extraheader=AUTHORIZATION: bearer ${GITHUB_TOKEN}" push "https://github.com/${GITHUB_REPOSITORY}.git" "HEAD:${GITHUB_REF_NAME}"
