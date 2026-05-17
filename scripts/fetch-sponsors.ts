@@ -51,10 +51,14 @@ const getAllPages = async <
 
 type SponsorType = 'User' | 'Organization';
 
+type Sponsor = {
+	login: string;
+	avatarUrl: string;
+};
+
 type SponsorEntity = {
 	nodes: {
-		sponsorEntity: {
-			login: string;
+		sponsorEntity: Sponsor & {
 			__typename: SponsorType;
 		};
 	}[];
@@ -88,8 +92,8 @@ const getSponsors = async (
 						}
 						sponsorEntity {
 							__typename
-							... on User { login }
-							... on Organization {login}
+							... on User { login avatarUrl(size: 60) }
+							... on Organization { login avatarUrl(size: 60) }
 						}
 					}
 				}
@@ -103,13 +107,21 @@ const getSponsors = async (
 	},
 );
 
+const escapeHtmlAttribute = (
+	value: string,
+) => value
+	.replaceAll('&', '&amp;')
+	.replaceAll('"', '&quot;')
+	.replaceAll('<', '&lt;')
+	.replaceAll('>', '&gt;');
+
 const generateHtml = (
-	sponsors: string[],
+	sponsors: Sponsor[],
 ) => `
 	<p align="center">${
 		sponsors
 			.map(
-				username => `<a href="https://github.com/${username}" title="${username}"><img src="https://avatars.githubusercontent.com/${username}?s=60" width="30"></a>`,
+				({ avatarUrl, login }) => `<a href="https://github.com/${escapeHtmlAttribute(login)}" title="${escapeHtmlAttribute(login)}"><img src="${escapeHtmlAttribute(avatarUrl)}" width="30"></a>`,
 			)
 			.join(' ')
 	}</p>
@@ -118,22 +130,26 @@ const generateHtml = (
 (async () => {
 	const resultPages = await getAllPages('sponsorshipsAsMaintainer', getSponsors);
 
-	const userSponsors: string[] = [];
-	const orgSponsors: string[] = [];
+	const userSponsors: Sponsor[] = [];
+	const orgSponsors: Sponsor[] = [];
 
 	for (const page of resultPages) {
 		for (const { sponsorEntity } of page.nodes) {
+			const sponsor = {
+				login: sponsorEntity.login,
+				avatarUrl: sponsorEntity.avatarUrl,
+			};
 			if (sponsorEntity.__typename === 'User') {
-				userSponsors.push(sponsorEntity.login);
+				userSponsors.push(sponsor);
 			} else {
-				orgSponsors.push(sponsorEntity.login);
+				orgSponsors.push(sponsor);
 			}
 		}
 	}
 
 	type SponsorsData = {
-		users: string[];
-		organizations: string[];
+		users: Sponsor[];
+		organizations: Sponsor[];
 		fetched: Date;
 	};
 
