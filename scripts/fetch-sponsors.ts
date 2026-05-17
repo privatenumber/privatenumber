@@ -64,6 +64,33 @@ type SponsorEntity = {
 	}[];
 };
 
+const readmeAvatarSize = 60;
+
+const getCanonicalAvatarUrl = (
+	avatarUrl: string,
+) => {
+	const url = new URL(avatarUrl);
+	url.searchParams.delete('s');
+	return url.toString();
+};
+
+const getSizedAvatarUrl = (
+	avatarUrl: string,
+	size: number,
+) => {
+	const url = new URL(avatarUrl);
+	const searchParams = new URLSearchParams([
+		['s', String(size)],
+	]);
+	for (const [key, value] of url.searchParams) {
+		if (key !== 's') {
+			searchParams.append(key, value);
+		}
+	}
+	url.search = searchParams.toString();
+	return url.toString();
+};
+
 const getSponsors = async (
 	cursor?: string,
 ) => graphql<GraphQlResult<'sponsorshipsAsMaintainer', SponsorEntity>>(
@@ -92,8 +119,8 @@ const getSponsors = async (
 						}
 						sponsorEntity {
 							__typename
-							... on User { login avatarUrl(size: 60) }
-							... on Organization { login avatarUrl(size: 60) }
+							... on User { login avatarUrl }
+							... on Organization { login avatarUrl }
 						}
 					}
 				}
@@ -121,7 +148,7 @@ const generateHtml = (
 	<p align="center">${
 		sponsors
 			.map(
-				({ avatarUrl, login }) => `<a href="https://github.com/${escapeHtmlAttribute(login)}" title="${escapeHtmlAttribute(login)}"><img src="${escapeHtmlAttribute(avatarUrl)}" width="30"></a>`,
+				({ avatarUrl, login }) => `<a href="https://github.com/${escapeHtmlAttribute(login)}" title="${escapeHtmlAttribute(login)}"><img src="${escapeHtmlAttribute(getSizedAvatarUrl(avatarUrl, readmeAvatarSize))}" width="30"></a>`,
 			)
 			.join(' ')
 	}</p>
@@ -137,7 +164,7 @@ const generateHtml = (
 		for (const { sponsorEntity } of page.nodes) {
 			const sponsor = {
 				login: sponsorEntity.login,
-				avatarUrl: sponsorEntity.avatarUrl,
+				avatarUrl: getCanonicalAvatarUrl(sponsorEntity.avatarUrl),
 			};
 			if (sponsorEntity.__typename === 'User') {
 				userSponsors.push(sponsor);
